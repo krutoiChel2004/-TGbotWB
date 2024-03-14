@@ -8,8 +8,6 @@ from sqlalchemy.orm import Session
 
 from bot.handlers.get_product.service import get_product_card
 
-db = SessionLocal()
-    
 router = Router()
 
 class GetProduct(StatesGroup):
